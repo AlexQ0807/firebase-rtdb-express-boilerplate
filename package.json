@@ -1,0 +1,21 @@
+{
+  "name": "firebase-rtdb-express-boilerplate",
+  "version": "1.0.0",
+  "description": "Minimalist Node JS boilerplate for building RESTFUL APIs that listens to changes in the Firebase Realtime Database",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "express-basic-auth": "latest",
+    "express-rate-limit": "latest",
+    "firebase": "latest",
+    "morgan": "latest"
+  }
+}
